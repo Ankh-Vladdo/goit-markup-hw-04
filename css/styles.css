@@ -9,7 +9,10 @@
   --accent-color: #4d5ae5;
   --secondary-accent-color: #404bbf;
   --border-portfolio-color: #e7e9fc;
+
+  linear-gradient(var(--bg-gradient);
 }
+
 
 /* *Скидання стилів */
 h1,
@@ -155,6 +158,9 @@ section {
 }
 
 /* ?Hero section */
+
+background-image: linear-gradient(var(--bg-gradient), var(--bg-gradient)),
+    url('..);
 .hero {
   padding-top: 188px;
   padding-bottom: 188px;
