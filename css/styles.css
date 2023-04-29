@@ -172,7 +172,7 @@ section {
   max-width: 1440px;
   max-height: 600px;
   background-image: linear-gradient(var(--bg-gradient), var(--bg-gradient)),
-    url(../images/hero-bg-photo-people-office.jpg);
+    url(../images/hero/hero-bg-photo-people-office.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -224,9 +224,9 @@ section {
 }
 /* ?About section  */
 
-.icon-about {
+.about-icon {
   max-width: 264px;
-  max-height: 112px;
+  min-height: 112px;
   background-color: var(--tertiary-bg-color);
   border-radius: 4px;
 }
@@ -366,13 +366,11 @@ section {
 }
 
 /* ?Footer */
-.social-links {
-  display: flex;
-  max-width: 208px;
-  max-height: 80px;
-  outline: 2px salmon;
+.logo-container {
+  padding-left: 156px;
+  padding-right: 120px;
 }
-.social-subtitle {
+.socials-subtitle {
   margin-bottom: 16px;
   font-size: 20px;
   font-weight: 500;
@@ -380,7 +378,12 @@ section {
   letter-spacing: 0.02em;
   color: var(--tertiary-text-color);
 }
-.footer {
+
+.footer-container {
+  display: flex;
+  align-items: baseline;
+  max-width: 1440px;
+  max-height: 312px;
   padding-top: 100px;
   padding-bottom: 100px;
   background-color: var(--secondary-bg-color);
