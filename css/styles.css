@@ -289,7 +289,7 @@ section {
 
 /* ? TEAM SECTION  */
 .team-social-icon {
-  fill:var(--social-icons-color) ;
+  fill:var(--social-icons-color);
 }
 .team-list {
   display: flex;
