@@ -1,6 +1,7 @@
 :root {
   --primary-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
+  
   --primary-bg-color: #ffffff;
   --secondary-bg-color: #2e2f42;
   --tertiary-bg-color: #f4f4fd;
@@ -13,7 +14,8 @@
 
   --social-icons-bg-color: #4d5ae5;
   --social-icons-color: #f4f4fd;
-
+  --social-icon-hover-bg-color: #31d0aaff;
+  
   --header-nav-box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
   --hero-btn-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -102,7 +104,7 @@ section {
   justify-content: space-between;
 }
 .header {
-  border-bottom: 1px solid #e7e9fc;
+  border-bottom: 1px solid var(--border-portfolio-color);
 }
 /* ? LOGO */
 .header-logo {
@@ -121,7 +123,7 @@ section {
 }
 /* ? HEADER NAV */
 .page-header {
-  border-bottom: 1px solid #e7e9fc;
+  border-bottom: 1px solid var(--border-portfolio-color);
   box-shadow: var(header-nav-box-shadow);
 }
 .header-nav .link {
@@ -193,7 +195,7 @@ section {
   margin-left: auto;
   margin-right: auto;
 
-  color: white;
+  color: var(--tertiary-text-color);
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -203,7 +205,7 @@ section {
 .hero-button:hover,
 .hero-button:focus {
   background-color: var(--secondary-accent-color);
-  color: white;
+  color: var(--tertiary-text-color);
 }
 
 .hero-button {
@@ -288,15 +290,34 @@ section {
 }
 
 /* ? TEAM SECTION  */
-.team-social-icon {
-  fill:var(--social-icons-color);
+.socials-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
 }
+
+.socials-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: var(--social-icons-bg-color);
+}
+
+.socials-link:hover,
+.socials-link:focus {
+  background-color: var( --social-icon-hover-bg-color)
+}
+
 .team-list {
   display: flex;
   flex-wrap: wrap;
 }
 .team-item {
-  background-color: white;
+  background-color: var(--primary-bg-color);
   border-radius: 0px 0px 4px 4px;
   margin-right: 24px;
   max-width: 264px;
@@ -337,6 +358,7 @@ section {
   text-align: center;
 }
 .profession-text {
+  margin-bottom: 8px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -363,7 +385,7 @@ section {
 .customers-logo {
   max-width: 168px;
   max-height: 88px;
-  background-color: white;
+  background-color: var(--primary-bg-color);
   border: 1px solid #8e8f99;
   border-radius: 4px;
 }
@@ -375,10 +397,6 @@ section {
 }
 
 /* ? FOOTER SECTION */
-
-/* .footer-social-icon {
-
-} */
 
 .logo-container {
   padding-left: 156px;
@@ -440,7 +458,7 @@ section {
 
 .filter-button:hover,
 .filter-button:focus {
-  color: white;
+  color: var(--tertiary-text-color);
   background-color: var(--secondary-accent-color);
   border: 1px solid transparent;
   border: 1px solid transparent;
