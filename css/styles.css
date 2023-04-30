@@ -11,7 +11,8 @@
   --secondary-accent-color: #404bbf;
   --border-portfolio-color: #e7e9fc;
 
-  --social-icons-bg-color:#4d5ae5;
+  --social-icons-bg-color: #4d5ae5;
+  --social-icons-color: #f4f4fd;
 
   --header-nav-box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -287,11 +288,9 @@ section {
 }
 
 /* ? TEAM SECTION  */
-
-.team-socials-item {
-background-color: var(--social-icons-bg-color)
+.team-social-icon {
+  fill:var(--social-icons-color) ;
 }
-
 .team-list {
   display: flex;
   flex-wrap: wrap;
@@ -470,7 +469,7 @@ background-color: var(--social-icons-bg-color)
 }
 
 /* ? PROJECT CARDS */
-.project-item:hover{
+.project-item:hover {
   box-shadow: var(--card-portfolio-hover-box-shadow);
 }
 .container-name-category {
