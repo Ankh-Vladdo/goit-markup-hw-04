@@ -90,7 +90,7 @@ section {
   letter-spacing: 0.02em;
 }
 
-/*? Header section  */
+/*? HEADER SECTION  */
 .header-flex {
   display: flex;
   align-items: center;
@@ -99,7 +99,7 @@ section {
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
-/* ?Logo */
+/* ? LOGO */
 .header-logo {
   margin-right: 76px;
 
@@ -114,7 +114,7 @@ section {
 .logo-right {
   color: var(--secondary-text-color);
 }
-/* ?Header-nav */
+/* ? HEADER NAV */
 .page-header {
   border-bottom: 1px solid #e7e9fc;
   box-shadow: var(header-nav-box-shadow);
@@ -143,7 +143,7 @@ section {
   color: var(--secondary-accent-color);
 }
 
-/* ?Contacts */
+/* ? HEADER CONTACTS  */
 .header-contacts {
   display: flex;
   font-style: normal;
@@ -166,7 +166,7 @@ section {
   line-height: 1.5;
 }
 
-/* ?Hero section */
+/* ? HERO SECTION */
 .hero {
   margin: auto;
   max-width: 1440px;
@@ -222,8 +222,7 @@ section {
 .button {
   cursor: pointer;
 }
-/* ?About section  */
-
+/* ? ABOUT SECTION  */
 .about-icon {
   max-width: 264px;
   min-height: 112px;
@@ -251,7 +250,7 @@ section {
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
-/* ?Benefits section */
+/* ? BENEFITS SECTION */
 .benefits-section {
   padding-top: 0;
   padding-bottom: 120px;
@@ -282,7 +281,7 @@ section {
   color: var(--secondary-text-color);
 }
 
-/* ?Team section  */
+/* ? TEAM SECTION  */
 .team-list {
   display: flex;
   flex-wrap: wrap;
@@ -336,7 +335,7 @@ section {
   color: var(--primary-text-color);
   text-align: center;
 }
-/* ?Customers section */
+/* ? CUSTOMERS SECTION */
 .customers-subtitle {
   margin-bottom: 72px;
   font-weight: 700;
@@ -365,7 +364,7 @@ section {
   margin-right: 0;
 }
 
-/* ?Footer */
+/* ? FOOTER SECTION */
 .logo-container {
   padding-left: 156px;
   padding-right: 120px;
@@ -414,8 +413,8 @@ section {
   color: var(--tertiary-bg-color);
 }
 
-/* !Portfolio */
-/* ?Menu filter button */
+/* ! PORTFOLIO */
+/* ? MENU FILTER BUTTON */
 
 .filter-list {
   display: flex;
@@ -454,7 +453,7 @@ section {
   margin-right: 24px;
 }
 
-/* ?Project Cards */
+/* ? PROJECT CARDS */
 .container-name-category {
   padding: 32px 16px;
   border: 1px solid var(--border-portfolio-color);
