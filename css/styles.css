@@ -369,6 +369,14 @@ section {
 }
 
 /* ? FOOTER SECTION */
+
+.footer-social-icon {
+  fill: rebeccapurple;
+}
+
+
+
+
 .logo-container {
   padding-left: 156px;
   padding-right: 120px;
