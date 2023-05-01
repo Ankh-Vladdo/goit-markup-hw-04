@@ -316,11 +316,17 @@ section {
   width: 40px;
   height: 40px;
   background-color: var(--social-icons-bg);
+  color: var(--social-icons);
+}
+
+.team-social-icon {
+  fill: currentColor;
 }
 
 .team-socials-link:hover,
 .team-socials-link:focus {
   background-color: var(--secondary-accent);
+  color: var(--social-icons);
 }
 
 .team-list {
@@ -338,7 +344,8 @@ section {
   margin-right: 0;
 }
 .card-content {
-  padding: 32px 16px;
+padding-top: 32px;
+padding-bottom: 32px;
 }
 
 .team {
@@ -379,7 +386,7 @@ section {
 }
 /* ? CUSTOMERS SECTION */
 
-.customers-container {
+.customers-logo {
   padding: 32px 0;
 }
 
@@ -432,6 +439,10 @@ section {
 
 /* ? FOOTER SECTION */
 
+.footer-wrap {
+  display: flex;
+  align-items: baseline;
+}
 .footer-socials-list {
   display: flex;
   justify-content: center;
@@ -447,18 +458,24 @@ section {
   width: 40px;
   height: 40px;
   background-color: var(--social-icons-bg);
+  color: var(--social-icons);
+}
+
+.footer-social-icon {
+  fill: currentColor;
 }
 
 .footer-socials-link:hover,
 .footer-socials-link:focus {
   background-color: var(--social-icon-hover-bg);
+  color: var(--social-icons);
 }
 
 .footer-logo-container {
   padding-left: 156px;
   padding-right: 120px;
 }
-.footer-socials-subtitle {
+.footer-socials-text {
   margin-bottom: 16px;
   font-size: 20px;
   font-weight: 500;
@@ -468,8 +485,6 @@ section {
 }
 
 .footer-container {
-  display: flex;
-  align-items: baseline;
   max-width: 1440px;
   max-height: 312px;
   padding-top: 100px;
