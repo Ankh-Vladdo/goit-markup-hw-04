@@ -126,7 +126,7 @@ section {
 /* ? HEADER NAV */
 .page-header {
   border-bottom: 1px solid var(--border-portfolio);
-  box-shadow: var(header-nav-box-shadow);
+  box-shadow: var(--header-nav-box-shadow);
 }
 .header-nav .link {
   padding-top: 24px;
@@ -383,11 +383,10 @@ section {
   justify-content: center;
   width: 104px;
   height: 56px;
-  color:var(--customers-logo);
+  color: var(--customers-logo);
 }
 .customer-icon {
   fill: currentColor;
-
 }
 .customers-link:hover,
 .customers-link:focus {
