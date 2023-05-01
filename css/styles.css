@@ -403,11 +403,9 @@ padding-bottom: 32px;
 .customers-link:focus {
   fill: var(--secondary-accent);
   color: var(--secondary-accent);
+  border-color: var(--secondary-accent)
 }
-.customers-item:hover,
-.customers-item:focus {
-  border-color: var(--secondary-accent);
-}
+
 .customers-list {
   display: flex;
   gap: 24px;
